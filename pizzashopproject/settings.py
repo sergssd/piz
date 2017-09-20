@@ -25,7 +25,7 @@ SECRET_KEY = 'i+_%2*e)4ejz9zu-8o=3i^z$w2^6mypfc&evpb2c1&&5lt1cn%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['fierce-hollows-81281.herokuapp.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -131,6 +131,12 @@ LOGIN_REDIRECT_URL = '/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+import dj_database_url
+db_from_env = dj_database_url.config()
+DATABASES['default'].update(db_from_env)
 
 AUTHENTICATION_BACKENDS = (
    'social_core.backends.facebook.FacebookOAuth2',
