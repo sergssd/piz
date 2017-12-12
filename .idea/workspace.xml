@@ -69,8 +69,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pizzashopproject/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+            <state relative-caret-position="272">
+              <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -231,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1513114402298</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="setting(allowed host2)">
+      <created>1513114775563</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1513114775563</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -269,7 +276,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="для загрузки на сайт" />
     <MESSAGE value="setting(allowed host)" />
-    <option name="LAST_COMMIT_MESSAGE" value="setting(allowed host)" />
+    <MESSAGE value="setting(allowed host2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="setting(allowed host2)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -430,8 +438,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pizzashopproject/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        <state relative-caret-position="272">
+          <caret line="34" column="26" lean-forward="true" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
           <folding />
         </state>
       </provider>
