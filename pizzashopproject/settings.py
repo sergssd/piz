@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'i+_%2*e)4ejz9zu-8o=3i^z$w2^6mypfc&evpb2c1&&5lt1cn%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['diplomshop.herokuapp.com', 'localhost', '127.0.0.1']
 
