@@ -25,7 +25,7 @@ SECRET_KEY = 'i+_%2*e)4ejz9zu-8o=3i^z$w2^6mypfc&evpb2c1&&5lt1cn%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['']
+ALLOWED_HOSTS = ['vast-citadel-89002.herokuapp.com', 'localhost', '127.0.0.1:8000']
 
 
 # Application definition
@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'oauth2_provider',
     'social_django',
     'rest_framework_social_oauth2',
+
 ]
 
 MIDDLEWARE = [
