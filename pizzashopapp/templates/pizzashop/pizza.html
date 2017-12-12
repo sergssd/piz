@@ -29,7 +29,7 @@
             <td scope="row">{{ pizza.id }}</td>
             <td><a href="{% url 'pizzashop-edit-pizza' pizza.id %}">{{ pizza.name }}</a></td>
             <td>{{ pizza.short_description }}</td>
-            <td>{{ pizza.price }}</td>
+            <td>{{ pizza.price }} гр.</td>
             <td class="text-center"><img class="img-rounded"
               src="{{ MEDIA_URL }}{{ pizza.image }}" width="50" height="50"></td>
           </tr>
